@@ -56,7 +56,7 @@ if splits[0]==0:
         return [
             int(math.floor(input.size(i + 2) * scale_factors[i])) for i in range(dim)
         ]
-elif splits[1] < 7:
+  elif splits[1] < 7:
     from torchvision.ops import _new_empty_tensor
     from torchvision.ops.misc import _output_size
 
